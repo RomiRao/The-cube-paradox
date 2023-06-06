@@ -14,53 +14,90 @@ body {
 
 div {
     border-radius: 7px;
-    padding: 20px;
     transition: transform, border-radius, 2s;
 }
 
+.cube-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cube-1 {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
     background-color: #EEC88C;
 }
 
 .cube-2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
     background-color: #369E87;
 }
 
 .cube-3 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
     background-color: #148A91;
 }
 
 .cube-4 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
     background-color: #195373;
 }
 
 .cube-5 {
+    width: 170px;
+    height: 170px;
+    position: absolute;
     background-color: #242359;
 }
 
 .cube-6 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
     background-color: #541B53;
 }
 
 .cube-7 {
+    width: 230px;
+    height: 230px;
+    position: absolute;
     background-color: #A0488E;
 }
 
 .cube-8 {
+    width: 260px;
+    height: 260px;
+    position: absolute;
     background-color: #E5B5E6;
 }
 
 .cube-9 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
     background-color: #D0CDEA;
 }
 
 .cube-10 {
+    width: 320px;
+    height: 320px;
+    position: absolute;
     background-color: #A7A3F5;
 }
 
 .cube-11 {
+    width: 350x;
+    height: 350px;
+    position: absolute;
     background-color: #716EC9;
 }
 
@@ -70,8 +107,4 @@ div:hover {
 
 div .cube-1:hover {
     border-radius: 50%;
-}
-
-div {
-    overflow: hidden;
 }
